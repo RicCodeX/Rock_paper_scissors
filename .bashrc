@@ -115,3 +115,29 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+newfile() 
+{
+	if [ -e $1 ]
+	then
+		echo "This file exists already"
+	else
+		echo "#!/bin/bash" > $1
+		echo "#Insert File Description Here" >> $1
+		echo "#File created automatically by $USER" >> $1
+		vim $1
+	fi
+}
+
+
+shebangfile()
+{
+	if [ -e $1 ]
+	then
+		echo "This file exists already"
+	else 
+		echo "#!/bin/bash" > $1
+		nano $1
+	fi
+}

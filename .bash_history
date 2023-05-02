@@ -1275,3 +1275,490 @@ ls
 ls sdda/sdf/sd 2> error.txt
 ls~
 ls
+cd alx-system_engineering-devops/
+ls
+cd 0x03-shell_variables_expansions/
+ls
+echo 'pronoun'
+printf 'pronoun\n'
+printf 'pronoun'
+printf 'pronoun\n'
+>overwrite
+ls
+>>append
+ls
+printf 'pronoun\n' > overwrite 
+less overwrite 
+printf 'pronoun\n\t\t\t\t' > overwrite 
+less overwrite 
+git add .
+git commit -m 'pushing'
+git push
+printf "%f" 300
+printf "%.2f" 300
+printf "%x\n" 300 > hex_no
+ls
+less hex_no 
+man printf
+printf "%q50" > dont_know
+less dont_know 
+NAME="Richard"
+echo $NAME 
+echo "My name is 
+echo "My name is $NAME
+NAME="Richard"
+echo "My name is $NAME
+Richard
+
+echo "My name is $NAME"
+SPORT="FOOTBALL"
+echo "I love $SPORTball"
+echo "I love ${SPORT}ball"
+SPORT="FOOT"
+echo "I love ${SPORT}ball"
+env
+printf env
+print env
+printenv
+printenv USER
+printenv NAME
+clear
+printenv
+printenv PWD
+clear
+set
+DOING="Learning Shell"
+set | less
+echo $DIRSTACK
+clear
+cd ..
+ls
+cd 0x00-shell_basics/;cd ..;vim newww.txt
+alias
+ls -A
+alias go_back="cd .."
+alias
+go_back
+ls
+cd alx-system_engineering-devops/
+ls
+cd 0x03-shell_variables_expansions/
+ls
+alias
+go_back
+cd 0x03-shell_variables_expansions/
+alias del_dir="rm -r"
+mkdir neww
+touch new/new
+touch neww/new
+ls
+cd neww/
+ls
+touch dsd dfso sdfs dsfdew ddfs
+ls
+cd ..
+ls
+rm neww/
+del_dir
+alias
+del_dir neww/
+ls
+git add .
+git commit -m 'created alias'
+git push
+ls
+echo *
+ks
+ls
+echo 1*
+echo *.txt
+echo [[:upper:]]*
+echo [[:lower:]]*
+echo "+ - * / ** ^ %" > arritmetic.txt
+ls
+less arritmetic.txt 
+echo $((2+2)) > sum.txt
+ls
+less sum.txt 
+NUM=10
+NUM2=20
+echo $((NUM / NUM2)) >> sum.txt 
+less sum.txt 
+clear
+echo front-{A,B,C,D,E,F}-back
+echo {Z..A}
+echo {10^100..1}
+echo {1000..1}
+echo {1000..1} > numbers.txt
+echo {Z..A} > alphabet.txt
+echo b{o,u,ul,ur,od,anks}y
+echo b{o,u,ul,ur,od,anks}y > b*y.txt
+ls
+less b\*y.txt 
+https://www.youtube.com/watch?v=G8MxQi_qmBI
+clear
+ls
+clear
+ls -al
+cd
+cd ~
+pwd
+ls -al
+nano .bashrc
+source .bashrc 
+newfile richard
+ls
+newfile richard
+nano .bashrc
+ls
+shebangfile one
+source .bashrc 
+shebangfile one
+git add .
+git commit -m 'initing files in .bashrc'
+git push
+ls
+cd alx-system_engineering-devops/
+ls
+cd 0x03-shell_variables_expansions/
+ls
+git add .
+git commit -m 
+git commit
+git push
+git remote -v
+git push
+ls
+git push
+printenv
+echo $?
+pwd
+echo $?
+echo $OLDPWD
+pwd
+ls
+cd alx-system_engineering-devops/
+echo $OLDPWD
+ls
+cd 0x03-shell_variables_expansions/
+ls
+cat 0-alias 
+echo 'alias ls="rm *"' > alias
+ls
+less alias
+echo "hello $USER" > hello
+ls
+cat hello
+ls
+less 1-hello_you 
+git add .
+git commit -m 'practise'
+git push
+git branch
+git status
+ssh-keygen
+ls
+cat sshgen
+cat sshgen.pub 
+cat sshgen.pub | clip
+sudo apt install geomview
+cat sshgen.pub | clip
+cat sshgen.pub 
+git push
+ls
+cd alx-system_engineering-devops/
+ls
+cd 0x03-shell_variables_expansions/
+ls
+git add .
+git commit -m 'updating'
+git push
+LS
+ls
+ssh-keygen
+ls
+git remote set-url
+git push
+git remote set-url origin git@github.com:RicCodeX/alx-system_engineering-devops.git
+git push
+git remote -v
+git remote set-url origin git@github.com:RicCodeX/alx-system_engineering-devops.git
+ls
+vim g
+ls
+chmod 777 g
+ls -al
+./g
+vim g
+ls
+git config 
+git config -- global
+git config 
+git push
+ssh -vT git@github.com
+ls
+cd alx-system_engineering-devops/
+ls
+cd 0x03-shell_variables_expansions/
+ls
+git add .
+./g
+git push
+git add.
+git add .
+git commit -m 'updating'
+git push
+git add .
+git commit -m "your commit message"
+git add -A
+git commit -m "Your commit message here"
+git push
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "tianchris198@gmail.com"
+ls
+ls -al ~/.ssh
+pbcopy < ~/.ssh/id_rsa.pub
+cat /.ssh/id_rsa.pub
+ls
+ls -al ~/.ssh
+cat id_rsa.pub
+ls
+ls -al
+pbcopy < ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git clone git@github.com:RicCodeX/alx-system_engineering-devops.git
+ls
+cd alx-system_engineering-devops/
+ls
+cd 0x03-shell_variables_expansions/
+ls
+./g
+git add .
+git commit -m 'updating'
+git push
+cd ..
+git add .
+cd ..
+cd
+ls
+ls -al
+vi .bashrc 
+ls
+mkdir Betty
+ls
+cd Betty/
+git clone https://github.com/holbertonschool/Betty.git
+ls
+cd Betty/
+ls
+sudo ./install.sh 
+vi betty
+chmod a+x betty
+sudo mv betty /bin/
+ls
+cd
+ls
+vi test.c
+betty test.c 
+ls
+betty test.c 
+vi test.c
+betty test.c 
+vi test.c
+betty test.c 
+vi test.c
+betty test.c 
+vi test.c
+betty test.c 
+vi test.c
+betty test.c 
+vi test.c
+betty test.c 
+vi test.c
+betty test.c 
+ls
+cd Betty/betty
+cd Betty/
+ls
+cd
+cd Betty/Betty
+ls
+vi ~/.vimrc
+cd
+ls
+betty test.c 
+vi test.c 
+betty test.c 
+vi test.c 
+betty test.c 
+vi test.c 
+betty test.c 
+man betty
+ls
+cd alx-low_level_programming/
+ls
+cd 0x10-variadic_functions/
+ls
+ls -al
+clear
+pwd
+clear
+ls
+vi if-else.c
+gcc if-else.c -o if-else.out
+vi if-else.c
+gcc if-else.c -o if-else.out
+./if-else.out 
+vi if-else.c
+gcc if-else.c -o if-else.out
+./if-else.out 
+vi if-else.c
+./if-else.out 
+gcc if-else.c -o if-else.out
+./if-else.out 
+betty if-else.c
+vi if-else.c
+betty if-else.c
+vi if-else.c
+betty if-else.c
+vi if-else.c
+betty if-else.c
+vi if-else.c
+betty if-else.c
+vi if-else.c
+betty if-else.c
+gcc if-else.c -o if-else.out
+./if-else.out 
+vi if-else.c
+vi betting.c
+man bitwise
+man arithmetic
+vi betting.c
+clear
+gcc betting.c -o betting.out
+./betting.out 
+betty betting.c 
+vi betting.c
+betty betting.c 
+gcc betting.c -o betting.out
+betty betting.c 
+vi betting.c
+betty betting.c 
+vi betting.c
+betty betting.c 
+vi betting.c
+betty betting.c 
+gcc betting.c -o betting.out
+./betting.out 
+vi betting.c
+gcc betting.c -o betting.out
+betty betting.c 
+./betting.out 
+vi betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vi betting.c
+./betting.out 
+vi betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vi betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vi betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vi betting.c
+gcc betting.c -o betting.out
+vim betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vim betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vim betting.c
+gcc betting.c -o betting.out
+betty betting.c 
+vim betting.c
+betty betting.c 
+vim betting.c
+betty betting.c 
+vim betting.c
+betty betting.c 
+vim betting.c
+betty betting.c 
+vim betting.c
+betty betting.c 
+vim betting.c
+gcc betting.c -o betting.out
+./betting.out 
+vim betting.c
+vi switch.c
+vim betting.c
+gcc betting.c -o betting.out
+betty betting.c 
+./betting.out 
+clear
+vim betting.c
+clear
+vi switch.c
+clear
+ls
+cd printf/
+ls
+git pull
+ls 
+ls -al
+ls
+git pull
+git branch
+git switch master 
+ls 
+git pull
+ls
+ls -l
+ls
+cd printf/
+ls
+git branch
+git switch richard 
+ls
+git pull
+ls
+git branch
+git switch master 
+git pull
+ls
+git config --global user.name
+git config --global user.email
+git switch richard 
+ls
+cat README.md 
+ls
+vi main.h 
+git switch master 
+ls
+vi main.h
+git switch richard 
+ls
+vi main.h 
+clear
+ls
+cd printf/
+ls
+git brah
+git branch
+clear
+ls
+vi main.h 
+ls
+cd printf/
+ls
+git branch
+clear
+ls
+vi _printf.c 
+vi _printf.c ~
+ls
+vi function1.C

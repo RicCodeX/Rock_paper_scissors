@@ -11,14 +11,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
-|2,0,1681385098,,"q"
-:w
-|2,0,1681385093,,"w"
 :wq
-|2,0,1681373512,,"wq"
+|2,0,1682585700,,"wq"
+:q!
+|2,0,1682584540,,"q!"
+:q
+|2,0,1682584531,,"q"
+:w _printf.c
+|2,0,1682429704,,"w _printf.c"
+:o
+|2,0,1682429493,,"o"
+:w
+|2,0,1682429488,,"w"
+: set number
+|2,0,1682423282,," set number"
 :Wq
-|2,0,1680472724,,"Wq"
+|2,0,1681677595,,"Wq"
 :w newww
 |2,0,1680259996,,"w newww"
 :e neww
@@ -40,258 +48,635 @@
 
 # Registers:
 ""1	LINE	0
-	ls: cannot access 'read/bin': No such file or directory
-|3,1,1,1,1,0,1680791681,"ls: cannot access 'read/bin': No such file or directory"
+		return (count);
+|3,1,1,1,1,0,1682584489,"	return (count);"
 "2	LINE	0
-	trunc.txt
-|3,0,2,1,1,0,1680791681,"trunc.txt"
+	}
+|3,0,2,1,1,0,1682584488,"}"
 "3	LINE	0
-	new.txt
-|3,0,3,1,1,0,1680791681,"new.txt"
+	        }
+|3,0,3,1,1,0,1682584486,"        }"
 "4	LINE	0
-	append.txt
-|3,0,4,1,1,0,1680791681,"append.txt"
+	                }
+|3,0,4,1,1,0,1682584485,"                }"
 "5	LINE	0
-	README.md
-|3,0,5,1,1,0,1680791681,"README.md"
+				/*expressions*/
+|3,0,5,1,1,0,1682584485,"			/*expressions*/"
 "6	LINE	0
-	9-duplicate_last_line
-|3,0,6,1,1,0,1680791681,"9-duplicate_last_line"
+		*buff_ind = 0;
+	}
+|3,0,6,1,2,0,1682584473,"	*buff_ind = 0;","}"
 "7	LINE	0
-	8-cwd_state
-|3,0,7,1,1,0,1680791681,"8-cwd_state"
+	}
+|3,0,7,1,1,0,1682584471,"}"
 "8	LINE	0
-	7-file
-|3,0,8,1,1,0,1680791681,"7-file"
+		return (count);
+|3,0,8,1,1,0,1682584470,"	return (count);"
 "9	LINE	0
-	6-third_line
-|3,0,9,1,1,0,1680791681,"6-third_line"
+	
+|3,0,9,1,1,0,1682584469,""
 
 # File marks:
-'0  1  0  ~/richard
-|4,48,1,0,1681385098,"~/richard"
-'1  1  0  ~/alx-system_engineering-devops/newww.txt
-|4,49,1,0,1681373512,"~/alx-system_engineering-devops/newww.txt"
-'2  17  3  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,50,17,3,1680791731,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
-'3  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,51,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
-'4  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,52,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
-'5  2  27  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
-|4,53,2,27,1680472811,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge"
-'6  2  19  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
-|4,54,2,19,1680472785,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable"
-'7  2  12  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
-|4,55,2,12,1680472764,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable"
-'8  2  2  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
-|4,56,2,2,1680472746,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables"
-'9  2  2  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
-|4,57,2,2,1680472727,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables"
+'0  161  0  ~/printf/function1.C
+|4,48,161,0,1682585701,"~/printf/function1.C"
+'1  66  0  ~/printf/_printf.c
+|4,49,66,0,1682584540,"~/printf/_printf.c"
+'2  66  0  ~/printf/_printf.c
+|4,50,66,0,1682584496,"~/printf/_printf.c"
+'3  117  0  ~/printf/main.h
+|4,51,117,0,1682525686,"~/printf/main.h"
+'4  1  0  ~/printf/main.h
+|4,52,1,0,1682509219,"~/printf/main.h"
+'5  1  0  ~/printf/main.h
+|4,53,1,0,1682509219,"~/printf/main.h"
+'6  199  0  ~/printf/main.h
+|4,54,199,0,1682501316,"~/printf/main.h"
+'7  217  0  ~/printf/main.h
+|4,55,217,0,1682501316,"~/printf/main.h"
+'8  100  0  ~/printf/main.h
+|4,56,100,0,1682501316,"~/printf/main.h"
+'9  118  0  ~/printf/main.h
+|4,57,118,0,1682501316,"~/printf/main.h"
 
 # Jumplist (newest first):
--'  1  0  ~/richard
-|4,39,1,0,1681385098,"~/richard"
--'  1  0  ~/alx-system_engineering-devops/newww.txt
-|4,39,1,0,1681373512,"~/alx-system_engineering-devops/newww.txt"
--'  1  0  ~/alx-system_engineering-devops/newww.txt
-|4,39,1,0,1681373512,"~/alx-system_engineering-devops/newww.txt"
--'  17  3  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,17,3,1680791731,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  17  3  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,17,3,1680791731,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  17  3  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,17,3,1680791731,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  17  3  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,17,3,1680791731,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,1,0,1680791671,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,1,0,1680791671,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,1,0,1680791671,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  1  0  ~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt
-|4,39,1,0,1680791671,"~/alx-system_engineering-devops/0x02-shell_redirections/cat.txt"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  18  ~/alx-system_engineering-devops/0x00-shell_basics/school
-|4,39,2,18,1680733630,"~/alx-system_engineering-devops/0x00-shell_basics/school"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
--'  2  21  ~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-|4,39,2,21,1680472836,"~/alx-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule"
+-'  161  0  ~/printf/function1.C
+|4,39,161,0,1682585701,"~/printf/function1.C"
+-'  1  0  ~/printf/function1.C
+|4,39,1,0,1682585542,"~/printf/function1.C"
+-'  66  0  ~/printf/_printf.c
+|4,39,66,0,1682584540,"~/printf/_printf.c"
+-'  66  0  ~/printf/_printf.c
+|4,39,66,0,1682584540,"~/printf/_printf.c"
+-'  1  0  ~/printf/_printf.c
+|4,39,1,0,1682584499,"~/printf/_printf.c"
+-'  1  0  ~/printf/_printf.c
+|4,39,1,0,1682584499,"~/printf/_printf.c"
+-'  66  0  ~/printf/_printf.c
+|4,39,66,0,1682584496,"~/printf/_printf.c"
+-'  66  0  ~/printf/_printf.c
+|4,39,66,0,1682584496,"~/printf/_printf.c"
+-'  67  1  ~/printf/_printf.c
+|4,39,67,1,1682584482,"~/printf/_printf.c"
+-'  67  1  ~/printf/_printf.c
+|4,39,67,1,1682584482,"~/printf/_printf.c"
+-'  67  1  ~/printf/_printf.c
+|4,39,67,1,1682584482,"~/printf/_printf.c"
+-'  67  1  ~/printf/_printf.c
+|4,39,67,1,1682584482,"~/printf/_printf.c"
+-'  65  0  ~/printf/_printf.c
+|4,39,65,0,1682584476,"~/printf/_printf.c"
+-'  64  0  ~/printf/_printf.c
+|4,39,64,0,1682584476,"~/printf/_printf.c"
+-'  65  0  ~/printf/_printf.c
+|4,39,65,0,1682584476,"~/printf/_printf.c"
+-'  64  0  ~/printf/_printf.c
+|4,39,64,0,1682584476,"~/printf/_printf.c"
+-'  65  0  ~/printf/_printf.c
+|4,39,65,0,1682584476,"~/printf/_printf.c"
+-'  64  0  ~/printf/_printf.c
+|4,39,64,0,1682584476,"~/printf/_printf.c"
+-'  65  0  ~/printf/_printf.c
+|4,39,65,0,1682584476,"~/printf/_printf.c"
+-'  64  0  ~/printf/_printf.c
+|4,39,64,0,1682584476,"~/printf/_printf.c"
+-'  1  0  ~/printf/_printf.c
+|4,39,1,0,1682583570,"~/printf/_printf.c"
+-'  1  0  ~/printf/_printf.c
+|4,39,1,0,1682583570,"~/printf/_printf.c"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  117  0  ~/printf/main.h
+|4,39,117,0,1682525686,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682525485,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682509219,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  199  0  ~/printf/main.h
+|4,39,199,0,1682501316,"~/printf/main.h"
+-'  217  0  ~/printf/main.h
+|4,39,217,0,1682501316,"~/printf/main.h"
+-'  100  0  ~/printf/main.h
+|4,39,100,0,1682501316,"~/printf/main.h"
+-'  118  0  ~/printf/main.h
+|4,39,118,0,1682501316,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500279,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  1  0  ~/printf/main.h
+|4,39,1,0,1682500261,"~/printf/main.h"
+-'  42  0  ~/printf/_printf.c
+|4,39,42,0,1682429736,"~/printf/_printf.c"
+-'  42  0  ~/printf/_printf.c
+|4,39,42,0,1682429736,"~/printf/_printf.c"
+-'  42  0  ~/printf/_printf.c
+|4,39,42,0,1682429736,"~/printf/_printf.c"
+-'  42  0  ~/printf/_printf.c
+|4,39,42,0,1682429736,"~/printf/_printf.c"
+-'  42  0  ~/printf/_printf.c
+|4,39,42,0,1682429736,"~/printf/_printf.c"
+-'  42  0  ~/printf/_printf.c
+|4,39,42,0,1682429736,"~/printf/_printf.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/printf/function1.C
+	*	1682585699	0
+	"	161	0
+	^	161	1
+	.	162	0
+	+	161	1
+	+	162	0
+
+> ~/printf/_printf.c
+	*	1682584531	0
+	"	66	0
+	^	66	1
+	.	67	0
+	+	67	0
+	+	1	3
+	+	67	2
+	+	67	17
+	+	1	18
+	+	67	35
+	+	67	37
+	+	67	11
+	+	67	16
+	+	67	36
+	+	67	0
+	+	67	3
+	+	67	22
+	+	67	2
+	+	67	14
+	+	67	47
+	+	67	9
+	+	67	43
+	+	67	14
+	+	67	57
+	+	67	6
+	+	67	13
+	+	67	0
+	+	67	34
+	+	67	35
+	+	67	19
+	+	67	0
+	+	67	35
+	+	67	25
+	+	67	3
+	+	67	0
+	+	67	34
+	+	67	11
+	+	67	32
+	+	67	9
+	+	67	44
+	+	67	8
+	+	67	0
+	+	67	2
+	+	67	0
+	+	67	15
+	+	67	1
+	+	67	0
+	+	66	1
+	+	67	0
+
+> ~/printf/main.h
+	*	1682525678	0
+	"	117	0
+	.	118	0
+	+	1	15
+	+	1	8
+	+	1	37
+	+	1	0
+	+	1	2
+	+	1	48
+	+	1	26
+	+	1	9
+	+	1	33
+	+	1	7
+	+	1	1
+	+	1	14
+	+	117	19
+	+	118	0
+
+> ~/printf/_printtf.c
+	*	1682429704	0
+	"	1	0
+	^	38	18
+	.	38	15
+	+	43	0
+	+	40	10
+	+	43	0
+	+	41	1
+	+	39	0
+	+	37	3
+	+	36	28
+	+	39	0
+	+	19	9
+	+	38	15
+
+> ~/printf/check_specifiers.c
+	*	1682429402	0
+	"	13	17
+	^	13	18
+	.	13	17
+	+	9	38
+	+	28	0
+	+	11	3
+	+	11	13
+	+	11	16
+	+	27	0
+	+	14	25
+	+	13	28
+	+	14	37
+	+	13	22
+	+	15	38
+	+	14	0
+	+	14	20
+	+	15	19
+	+	19	13
+	+	12	0
+	+	16	20
+	+	19	14
+	+	18	0
+	+	19	40
+	+	25	0
+	+	25	4
+	+	11	0
+	+	25	0
+	+	21	31
+	+	24	0
+	+	23	25
+	+	26	14
+	+	13	17
+
+> ~/printf/main.c
+	*	1682422572	0
+	"	23	26
+	^	23	27
+	.	23	26
+	+	1	2
+	+	9	0
+	+	8	18
+	+	27	0
+	+	17	20
+	+	27	0
+	+	16	23
+	+	22	25
+	+	23	19
+	+	22	24
+	+	16	24
+	+	23	1
+	+	1	19
+	+	3	17
+	+	26	11
+	+	22	22
+	+	8	0
+	+	16	24
+	+	22	9
+	+	15	0
+	+	20	34
+	+	18	45
+	+	24	46
+	+	18	33
+	+	24	34
+	+	17	12
+	+	23	26
+
+> ~/printf/new/test.c
+	*	1682335250	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	2	0
+	+	3	3
+	+	12	0
+	+	11	10
+	+	5	17
+	+	11	11
+	+	10	26
+	+	12	0
+
+> ~/alx-low_level_programming/mem_allocation/coderunner.c
+	*	1681904868	0
+	"	32	9
+	^	32	10
+	.	32	9
+	+	9	38
+	+	33	0
+	+	22	0
+	+	21	22
+	+	17	25
+	+	29	0
+	+	15	0
+	+	9	21
+	+	19	21
+	+	26	21
+	+	32	9
+
+> ~/alx-low_level_programming/library/calc.h
+	*	1681895173	0
+	"	2	22
+	^	2	23
+	.	2	22
+	+	2	22
+
+> ~/alx-low_level_programming/library/calc.c
+	*	1681895093	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	1	18
+	+	13	0
+
+> ~/alx-low_level_programming/library/sub.c
+	*	1681894795	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/alx-low_level_programming/library/add.c
+	*	1681894722	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/alx-low_level_programming/0x10-variadic_functions/switch.c
+	*	1681680578	0
+	"	3	2
+	^	3	3
+	.	3	2
+	+	1	18
+	+	3	2
+
+> ~/alx-low_level_programming/0x10-variadic_functions/betting.c
+	*	1681680187	0
+	"	30	0
+	^	29	12
+	.	29	11
+	+	9	1
+	+	22	2
+	+	5	19
+	+	17	10
+	+	12	28
+	+	19	42
+	+	22	2
+	+	21	31
+	+	22	2
+	+	30	0
+	+	23	45
+	+	23	47
+	+	23	45
+	+	26	35
+	+	30	0
+	+	26	1
+	+	26	2
+	+	27	33
+	+	28	0
+	+	27	15
+	+	10	39
+	+	12	53
+	+	13	49
+	+	17	15
+	+	21	31
+	+	12	26
+	+	17	15
+	+	10	39
+	+	11	0
+	+	19	25
+	+	27	32
+	+	23	17
+	+	21	8
+	+	16	52
+	+	17	50
+	+	19	52
+	+	13	76
+	+	13	66
+	+	21	69
+	+	23	52
+	+	13	66
+	+	23	52
+	+	14	19
+	+	13	65
+	+	21	8
+	+	29	11
+
+> ~/alx-low_level_programming/0x10-variadic_functions/if-else.c
+	*	1681675486	0
+	"	15	1
+	^	16	5
+	.	16	5
+	+	9	1
+	+	12	13
+	+	14	29
+	+	20	9
+	+	14	7
+	+	18	7
+	+	14	28
+	+	18	25
+	+	10	10
+	+	12	12
+	+	15	8
+	+	20	10
+	+	15	2
+	+	16	5
+
+> ~/test.c
+	*	1681662806	0
+	"	11	0
+	^	11	1
+	.	9	0
+	+	11	0
+	+	7	12
+	+	8	30
+	+	7	0
+	+	5	3
+	+	3	38
+	+	3	27
+	+	8	1
+	+	9	0
+
+> ~/.vimrc
+	*	1681661083	0
+	"	7	17
+	^	7	18
+	.	7	17
+	+	7	17
+
+> ~/Betty/Betty/betty
+	*	1681554569	0
+	"	18	3
+	^	20	4
+	.	20	3
+	+	20	3
+
+> ~/alx-low_level_programming/hhllo.c
+	*	1681511181	0
+	"	20	43
+	^	20	44
+	.	20	41
+	+	26	0
+	+	7	3
+	+	9	12
+	+	10	4
+	+	11	52
+	+	24	32
+	+	11	0
+	+	24	0
+	+	25	1
+	+	23	0
+	+	12	12
+	+	23	0
+	+	22	47
+	+	14	16
+	+	22	50
+	+	12	5
+	+	17	38
+	+	20	44
+	+	2	17
+	+	17	25
+	+	18	27
+	+	19	26
+	+	20	41
+
+> ~/alx-low_level_programming/hello
+	*	1681506315	0
+	"	1	9
+
+> ~/.bashrc
+	*	1681466115	0
+	"	143	0
+
+> ~/alx-system_engineering-devops/0x03-shell_variables_expansions/g
+	*	1681461373	0
+	"	2	37
+	^	2	38
+	.	2	37
+	+	5	7
+	+	2	37
 
 > ~/richard
 	*	1681385096	0
